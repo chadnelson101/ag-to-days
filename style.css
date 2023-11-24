@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Set your desired background color */
+}
+
+div {
+    border: 2px solid #333; /* Set your desired border color */
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* Set your desired background color */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4caf50; /* Set your desired button color */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Set your desired button hover color */
+}
+
+#resultOutput {
+    margin-top: 10px;
+}
